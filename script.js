@@ -1,4 +1,4 @@
-function delay(ms) {
+  function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
 
@@ -6,7 +6,7 @@ function delay(ms) {
     return Math.floor(Math.random() * Math.floor(max));
   }
 
-  let randRoll = getRandomInt(20);
+  let randRoll = getRandomInt(4000);
 
   async function addPeople() {
     var ul = $('ul.mn-pymk-list__cards')[0];
