@@ -6,7 +6,7 @@
     return Math.floor(Math.random() * Math.floor(max));
   }
 
-  let randRoll = getRandomInt(4000);
+  var randRoll = getRandomInt(4000);
 
   async function addPeople() {
     var ul = $('ul.mn-pymk-list__cards')[0];
