@@ -6,3 +6,7 @@ Intended to be run in console (F12) of the search results page (SERP) you would 
 ### myNetwork.js
 
 Paste it in console (f12) on page https://www.linkedin.com/mynetwork/
+
+### withdrawOldRequest.js
+
+Paste it in console (f12) on page https://www.linkedin.com/mynetwork/invitation-manager/sent/
