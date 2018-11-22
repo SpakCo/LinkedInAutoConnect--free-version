@@ -5,7 +5,7 @@ function removePeople() {
   while(firstLi && count < 40){ // stop after adding xx people
     var buttonToClick = firstLi.querySelector("button.invitation-card__action-btn");
     var timeStamp = firstLi.querySelector("time.time-badge");
-    var checkDateString = (timeStamp.innerText.includes("months ago") || timeStamp.innerText.includes("month ago"));
+    var checkDateString = (timeStamp.innerText.includes("months ago") || timeStamp.innerText.includes("month ago") || timeStamp.innerText.includes("weeks ago"));
     if (checkDateString == false) {
       console.log("Connection Too New; Skipping ...");
       ul.removeChild(firstLi);
@@ -24,8 +24,6 @@ function removePeople() {
 }
 
 removePeople();
-
-// Test
 
 /*
 // Outer Container
