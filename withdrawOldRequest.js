@@ -25,6 +25,8 @@ function removePeople() {
 
 removePeople();
 
+// Test
+
 /*
 // Outer Container
 ul.mn-invitation-list
