@@ -1,3 +1,6 @@
+// BUGGY!!!
+// NEEDS PROMISES
+
 var resultsContainer = document.querySelector("ul.search-results__list");
 var firstCard = resultsContainer.querySelector("li.search-result");
 var connectButton = firstCard.querySelector("button[data-control-name=srp_profile_actions]");
